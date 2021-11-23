@@ -10,4 +10,9 @@ public class DemoController {
 	public String getName() {
 		return "my name is aman";
 	}
+	
+	@GetMapping("/number")
+	public String getNumber() {
+		return "9798110515";
+	}
 }
