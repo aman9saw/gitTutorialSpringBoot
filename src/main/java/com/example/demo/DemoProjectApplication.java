@@ -10,6 +10,8 @@ public class DemoProjectApplication {
 		SpringApplication.run(DemoProjectApplication.class, args);
 		
 		System.out.println("Project started");
+		
+		System.out.println("This is another commit");
 	}
 
 }
