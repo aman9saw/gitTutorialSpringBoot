@@ -22,6 +22,6 @@ public class DemoController {
 	}
 	@GetMapping("/Pincode")
 	public String getPincode() {
-		return "412007";
+		return "828111";
 	}
 }
