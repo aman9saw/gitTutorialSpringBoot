@@ -15,4 +15,9 @@ public class DemoController {
 	public String getNumber() {
 		return "7992274853";
 	}
+	
+	@GetMapping("/Address")
+	public String getAddress() {
+		return "Pune";
+	}
 }
