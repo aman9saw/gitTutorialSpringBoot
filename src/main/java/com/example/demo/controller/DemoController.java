@@ -20,4 +20,8 @@ public class DemoController {
 	public String getAddress() {
 		return "Pune";
 	}
+	@GetMapping("/Pincode")
+	public String getPincode() {
+		return "412007";
+	}
 }
