@@ -5,4 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DemoService {
 
+	public String callDB() {
+		return "Db call is successful";
+	}
 }
